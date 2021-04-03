@@ -1,0 +1,11 @@
+{
+  "name": "js-utils",
+  "version": "0.0.1",
+  "description": "A collection of Javascript utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Kampouroudis",
+  "license": "MIT"
+}
