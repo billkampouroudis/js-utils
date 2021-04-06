@@ -1,0 +1,5 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.tabSize": 2
+}
