@@ -9,7 +9,6 @@
   * 
   *   initBtn.addEventListener('click', debounced.init); // To run a function using debounce.
   *   stopBtn.addEventListener('click', debounced.stop); // To stop the debounce before it ends.
-  * 
 */
 export default function debounce(func, delay) {
   let inDebounce = null;
