@@ -4,6 +4,6 @@
   * @param {*} value
   * @returns {boolean}
 */
-export default function isNumber(value) {
-  return value.isInteger();
+export default function isInteger(value) {
+  return Number.isInteger(value);
 }

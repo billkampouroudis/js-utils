@@ -7,5 +7,5 @@ import isFalsy from './falsy.js';
   * @returns {boolean}
 */
 export default function isTruthy(value) {
-  return !is.falsy(value);
+  return !isFalsy(value);
 }

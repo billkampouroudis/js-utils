@@ -1,6 +1,6 @@
 import safe from '../../src/get/safe.js';
 
-describe('Get a child attribute safely', () => {
+describe('Gets a child attribute safely', () => {
   const foo = {
     id: 1,
     bar: undefined,
