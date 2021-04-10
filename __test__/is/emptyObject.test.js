@@ -6,7 +6,7 @@ describe('Checks if the given value is an empty object', () => {
   });
 
   it('Should return true when "new Object()" is provided', () => {
-    expect(isEmptyObject(new Object())).toBe(true);
+    expect(isEmptyObject(new Object())).toBe(true); // eslint-disable-line no-new-object
   });
 
   it('Should return false when string is provided', () => {
@@ -18,7 +18,7 @@ describe('Checks if the given value is an empty object', () => {
   });
 
   it('Should return false when object with attributes is provided', () => {
-    expect(isEmptyObject({foo: 'bar'})).toBe(false);
+    expect(isEmptyObject({ foo: 'bar' })).toBe(false);
   });
 
   it('Should return false when null is provided', () => {

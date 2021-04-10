@@ -6,11 +6,11 @@ describe('Checks if the given value is an object', () => {
   });
 
   it('Should return true when "new Object()" is provided', () => {
-    expect(isObject(new Object())).toBe(true);
+    expect(isObject(new Object())).toBe(true); // eslint-disable-line no-new-object
   });
 
   it('Should return true when object with attributes is provided', () => {
-    expect(isObject({foo: 'bar'})).toBe(true);
+    expect(isObject({ foo: 'bar' })).toBe(true);
   });
 
   it('Should return false when string is provided', () => {
@@ -30,6 +30,6 @@ describe('Checks if the given value is an object', () => {
   });
 
   it('Should return false when function is provided', () => {
-    expect(isObject(function foo(){})).toBe(false);
+    expect(isObject(() => {})).toBe(false);
   });
 });

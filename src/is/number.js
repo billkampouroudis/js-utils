@@ -1,6 +1,6 @@
 /**
   * Checks if the given value is a number.
-  * 
+  *
   * @param {*} value
   * @returns {boolean}
 */
