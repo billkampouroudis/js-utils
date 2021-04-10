@@ -9,7 +9,7 @@
   * 
   * @example get.safe(() => user.address.zipCode, 'N/A')
 */
-export default function safe(fn, fallback = undefined) {
+export default function get(fn, fallback = undefined) {
   try {
     return fn();
   } catch (e) {

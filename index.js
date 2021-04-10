@@ -3,10 +3,10 @@ import emptyObject from './src/is/emptyObject.js';
 import falsy from './src/is/falsy.js';
 import integer from './src/is/integer.js';
 import number from './src/is/number.js';
-import object from './src/is/object.js';
+import isObject from './src/is/object.js';
 import truthy from './src/is/truthy.js';
 
-import safe from './src/get/safe.js';
+import get from './src/get/safe.js';
 
 import debounce from './src/misc/debounce.js';
 
@@ -16,12 +16,12 @@ export const is = {
   falsy,
   integer,
   number,
-  object,
+  object: isObject,
   truthy,
 }
 
-export const get = {
-  safe
+export const object = {
+  get
 }
 
 export {
