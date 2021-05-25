@@ -50,6 +50,6 @@ describe('Checks if the given value is falsy', () => {
   });
 
   it('Should return false when object with attributes is provided', () => {
-    expect(isFalsy({foo: 'bar'})).toBe(false);
+    expect(isFalsy({ foo: 'bar' })).toBe(false);
   });
 });

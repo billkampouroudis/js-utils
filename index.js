@@ -1,29 +1,63 @@
-import array from './src/is/array.js';
-import emptyObject from './src/is/emptyObject.js';
-import falsy from './src/is/falsy.js';
-import integer from './src/is/integer.js';
-import number from './src/is/number.js';
-import isObject from './src/is/object.js';
-import truthy from './src/is/truthy.js';
+// Is
+import isArray from './src/is/array';
+import emptyArray from './src/is/emptyArray';
+import emptyObject from './src/is/emptyObject';
+import equal from './src/is/equal';
+import falsy from './src/is/falsy';
+import integer from './src/is/integer';
+import isNumber from './src/is/number';
+import isObject from './src/is/object';
+import truthy from './src/is/truthy';
 
-import get from './src/get/safe.js';
+// Object
+import get from './src/object/get';
 
-import debounce from './src/misc/debounce.js';
+// Number
+import avg from './src/number/avg';
+import max from './src/number/max';
+import min from './src/number/min';
+import random from './src/number/random';
+
+// String
+import truncate from './src/string/truncate';
+
+// Array
+import omit from './src/array/omit';
+
+// Misc
+import debounce from './src/misc/debounce';
 
 export const is = {
-  array,
+  array: isArray,
+  emptyArray,
   emptyObject,
+  equal,
   falsy,
   integer,
-  number,
+  number: isNumber,
   object: isObject,
   truthy,
-}
+};
 
 export const object = {
-  get
-}
+  get,
+};
+
+export const number = {
+  avg,
+  max,
+  min,
+  random,
+};
+
+export const string = {
+  truncate,
+};
+
+export const array = {
+  omit,
+};
 
 export {
-  debounce
-}
+  debounce,
+};

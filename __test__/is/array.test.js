@@ -6,7 +6,7 @@ describe('Checks if the given value is an array', () => {
   });
 
   it('Should return true when "new Array()" is provided', () => {
-    expect(isArray(new Array())).toBe(true);
+    expect(isArray(new Array())).toBe(true); // eslint-disable-line no-array-constructor
   });
 
   it('Should return false when string is provided', () => {

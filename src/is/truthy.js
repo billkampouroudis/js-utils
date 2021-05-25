@@ -1,8 +1,8 @@
-import isFalsy from './falsy.js';
+import isFalsy from './falsy';
 
 /**
   * Checks if the given value is truthy.
-  * 
+  *
   * @param {*} value
   * @returns {boolean}
 */

@@ -7,14 +7,14 @@ import isEmptyObject from './emptyObject';
 */
 export default function isFalsy(value) {
   return (
-    value === undefined ||
-    value === null ||
-    value == 0 ||
-    value === 0n ||
-    value < 0 ||
-    String(value).trim() === '' ||
-    value === false ||
-    (typeof value === 'number' && isNaN(value)) ||
-    isEmptyObject(value)
+    value === undefined
+    || value === null
+    || value == 0 // eslint-disable-line eqeqeq
+    || value === 0n
+    || value < 0
+    || String(value).trim() === ''
+    || value === false
+    || (typeof value === 'number' && Number.isNaN(value))
+    || isEmptyObject(value)
   );
 }

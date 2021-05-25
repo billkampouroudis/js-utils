@@ -1,6 +1,6 @@
 /**
   * Checks if the given value is an array.
-  * 
+  *
   * @param {*} value
   * @returns {boolean}
 */

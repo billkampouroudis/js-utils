@@ -50,6 +50,6 @@ describe('Checks if the given value is truthy', () => {
   });
 
   it('Should return true when object with attributes is provided', () => {
-    expect(isTruthy({foo: 'bar'})).toBe(true);
+    expect(isTruthy({ foo: 'bar' })).toBe(true);
   });
 });

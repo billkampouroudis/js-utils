@@ -1,4 +1,4 @@
-import get from '../../src/object/get.js';
+import get from '../../src/object/get';
 
 describe('Gets a child attribute getly', () => {
   const foo = {
@@ -6,7 +6,7 @@ describe('Gets a child attribute getly', () => {
     bar: undefined,
     obj: {},
     empty: null,
-    string: 'abcdefg'
+    string: 'abcdefg',
   };
 
   it('Should return undefined when trying to access a child of an undefined object.', () => {
