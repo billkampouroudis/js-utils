@@ -5,7 +5,7 @@ A javascript library that contains useful utilities for the Greek language.
 ### Installation
 
 ```
-npm i @bill.kampouroudis/greek-utils#v0.1.1
+npm i https://github.com/billkampouroudis/greek-utils#v0.1.1
 ```
 
 ## Available Scripts
