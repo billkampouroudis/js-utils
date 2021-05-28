@@ -36,28 +36,28 @@ export const is = {
   integer,
   number: isNumber,
   object: isObject,
-  truthy,
+  truthy
 };
 
 export const object = {
-  get,
+  get
 };
 
 export const number = {
   avg,
   max,
   min,
-  random,
+  random
 };
 
 export const string = {
-  truncate,
+  truncate
 };
 
 export const array = {
-  omit,
+  omit
 };
 
 export {
-  debounce,
+  debounce
 };
