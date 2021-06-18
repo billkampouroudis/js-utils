@@ -26,6 +26,7 @@ import omit from './src/array/omit';
 
 // Misc
 import debounce from './src/misc/debounce';
+import addClassNames from './src/misc/addClassNames';
 
 export const is = {
   array: isArray,
@@ -59,5 +60,6 @@ export const array = {
 };
 
 export {
-  debounce
+  debounce,
+  addClassNames
 };
