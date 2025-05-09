@@ -1,6 +1,6 @@
 ## Greek Utils
 
-A javascript library that contains useful utilities for the Greek language.
+A javascript library that contains useful utilities.
 
 ### Installation
 
